@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAihkd2PerNEm5t5jYRG1n7gAAAAACAAAAAAAQZgAAAAEAACAAAADHZ1UsVlJFwpJ7KnVlR6S8gIvNtkCDj8RNgKCWOXyt1QAAAAAOgAAAAAIAACAAAACs8rfTOE7mG83beic2/gloqi0Uwm7vFI4CzLZMmJNENKAAAACDEEuqTLko7CrwMe1OLlE4hCRQpsyFgP+OSX6hTs2stofcyxEf/6tbHR6jta2Qsb45OtTtNa7QbMf3B7bMjSwmxa+IvI73A9PlZ/5ZFqpzCdluIY8XEjiTrncoVuAVBGpWfx01RqyL/upem6lbZC/p9H+3sNmiLLC0kUaa4Ku0XE1qk5aZRM39Abv9MVAKJOL33vZcAc/Wuc96UteJVxj1QAAAANQlvDlfDiTkHlv+S6Tzno71krggMaL8rYq7ww7dPq0ZQU/105DhGS9p9euD7mvsnak7aRSenmleSO9oqhqIH1c=</EncryptedPassword>
+    <History>True|2024-03-06T01:16:52.1205080Z;True|2024-03-05T17:00:01.9904369-08:00;True|2024-03-05T16:56:22.8043117-08:00;True|2024-03-05T16:11:57.4534678-08:00;True|2024-03-05T16:11:00.0796241-08:00;True|2024-03-04T08:11:09.2614050-08:00;True|2024-03-04T06:43:21.7584809-08:00;True|2024-03-04T05:47:31.6163341-08:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="Connection">
+      <Value>Data Source=resturantapp.db</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="ResturantAppContext-outDir Controllers">
+      <Value>Data Source=resturantapp.db</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="ResturantContext">
+      <Value>Data Source=resturantapp.db</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

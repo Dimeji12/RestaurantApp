@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets"
+    },
+    "sqlite1": {
+      "type": "sqlite",
+      "connectionId": "Connection"
+    },
+    "apis1": {
+      "type": "apis"
+    }
+  }
+}
